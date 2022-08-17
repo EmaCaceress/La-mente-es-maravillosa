@@ -293,7 +293,6 @@
     width: 45%;
   }
   .footer{
-    width: 100vw;
     background-color: #486DB7;
     display: flex;
     flex-direction: column;
@@ -348,14 +347,12 @@
   }
 
   .main__containerImg{
-    width: 100vw;
     height: 40vh;
     background-color: red;
   }
 
   .main__containerTitle{
     background-color: #B5C4E280;
-    width: 100vw;
     padding: 8px 0px;
   }
 
@@ -602,6 +599,10 @@
     text-align: center;
   }
 
+  .main__containerImg{
+    height: 70vh;
+  }
+
   .main__containerTitle{
     background-color: #B5C4E280;
     height: 30%;
@@ -703,11 +704,9 @@
   .article__outstanding{
     display: grid;
     grid-template-columns: calc(90%/3);
-    grid-template-rows: 15% 10% 75%;
+    grid-template-rows: 15vh 10vh 75vh;
     background-color: #B5C4E280;
-    padding-bottom: 8px;
     grid-gap: 8px;
-
   }
 
   .article__outstanding h1{
@@ -715,6 +714,7 @@
     font-weight: 700;
     grid-column: 1/4;
     grid-row: 1/2;
+    text-align: center;
   }
 
   .slash-3--blue {
@@ -743,7 +743,8 @@
     grid-row: 3/4;
   }
   .cardOut__container{
-    padding: 5%;
+    padding: 0% 5%;
+    height: 40%;
   }
   .cardOut__containerImg{
     height: 40%;
@@ -753,17 +754,12 @@
     height: 100%;
   }
 
-  .cardOut__co  ntainer{
-    padding: 8%;
-    padding-bottom: 0;
-    height: 40%;
-  }
-
   .cardOut__title{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 3vw;
     line-height: 32px;
-    margin-top: 4px;
+    margin-top: 1%;
+    margin-bottom: 1%;
   }
 
   .main__img{
@@ -774,13 +770,13 @@
   .cardOut__subtitle{
     font-weight: bold;
     color:#F778B9;
-    font-size: 18px;
-    margin-bottom: 4px;
+    font-size: 2vw;
+    margin: 0px;
   }
   
   .cardOut__description{
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.4vw;
     color:#252525;
   }
 
@@ -806,7 +802,6 @@
 
   /* Footer */
   .footer{
-    width: 100vw;
     height: 60vh;
     background-color: #486DB7;
     color:white;
